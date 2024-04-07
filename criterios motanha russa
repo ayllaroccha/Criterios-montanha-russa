@@ -1,0 +1,24 @@
+# critérios para andar na montana russa
+print("Bem Vindo na Maior Montanha Russa da America Latina")
+
+# perguntando a altura
+altura = int(input("Qual sua altura em cm?"))
+
+# tem altura para andar na montanha russa
+if altura >= 120:
+    print("Você tem altura para andar na montanha russa!")
+
+# perguntando qual idade
+idade = int(input("Qual sua idade?"))
+
+# pagando bilhetes (declaração aninhada)
+if idade < 12:    
+        print("Por favor pague R$5,00")
+elif idade <= 18:
+        print("Por favor pague R$7,00")
+elif idade > 18:
+        print("Por favor pague R12,00")
+    
+# não tem altura para andar na montanha russa
+else:
+    print("Desculpe, você não tem altura suficiente :C")
